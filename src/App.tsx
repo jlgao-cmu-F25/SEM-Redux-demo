@@ -1,6 +1,7 @@
 import "./App.css"
 import { Counter } from "./features/counter/Counter"
 import { Quotes } from "./features/quotes/Quotes"
+import { EcommerceCart } from "./features/cart/EcommerceCart"
 import logo from "./logo.svg"
 
 export const App = () => (
@@ -12,6 +13,8 @@ export const App = () => (
         Edit <code>src/App.tsx</code> and save to reload.
       </p>
       <Quotes />
+      <hr style={{ width: "100%", margin: "20px 0" }} />
+      <EcommerceCart />
       <span>
         <span>Learn </span>
         <a
